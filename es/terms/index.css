@@ -23,8 +23,8 @@ body {
 }
 
 .header {
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
-    color: white;
+    background: transparent;
+    color: inherit;
     padding: 40px 40px 30px;
     text-align: center;
 }
@@ -276,21 +276,21 @@ body {
 }
 
 .lang-link {
-    background: rgba(255, 255, 255, 0.2);
-    color: rgba(255, 255, 255, 0.9);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: #f1f5f9;
+    color: #334155;
+    border: 1px solid #e2e8f0;
 }
 
 .lang-link:hover {
-    background: rgba(255, 255, 255, 0.3);
-    color: white;
+    background: #e2e8f0;
+    color: #0f172a;
     transform: translateY(-1px);
 }
 
 .lang-current {
-    background: rgba(255, 255, 255, 0.9);
-    color: #4f46e5;
-    border: 1px solid rgba(255, 255, 255, 0.9);
+    background: #e2e8f0;
+    color: #0f172a;
+    border: 1px solid #cbd5e1;
 }
 
 .footer {
